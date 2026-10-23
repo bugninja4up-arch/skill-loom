@@ -8,12 +8,10 @@ Skill Loom is a local web app for improving Markdown agent skills from reports. 
 
 You need **Git, Python 3.10+**, and an API provider supporting OpenAI-compatible Chat Completions. Python 3.12 on Linux is the tested configuration. AI requests require your own key and may incur provider charges.
 
-Replace `<owner>` with the repository owner's GitHub username.
-
 ### macOS / Linux
 
 ```sh
-git clone "https://github.com/<owner>/skill-loom.git"
+git clone "https://github.com/bugninja4up-arch/skill-loom.git"
 cd skill-loom
 python3 -m venv .venv
 source .venv/bin/activate
@@ -24,7 +22,7 @@ python start.py --root ./examples
 ### Windows PowerShell
 
 ```powershell
-git clone "https://github.com/<owner>/skill-loom.git"
+git clone "https://github.com/bugninja4up-arch/skill-loom.git"
 cd skill-loom
 py -m venv .venv
 .\.venv\Scripts\Activate.ps1
